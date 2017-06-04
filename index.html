@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Semantic UI - Portfolio [part 1]</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- SIDEBAR -->
+  <div class="ui right vertical sidebar violet inverted labeled icon menu">
+    <a class="item" href="#aboutme">
+      <i class="user icon"></i>
+      About
+    </a>
+    <a class="item" href="#myprojects">
+      <i class="laptop icon"></i>
+      Projects
+    </a>
+    <a class="item" href="#contact">
+      <i class="mail outline icon"></i>
+      Contact
+    </a>
+  </div>
+  <!-- END OF SIDEBAR -->
+
+  <div class="pusher">
+
+    <!-- section header - navigation -->
+    <nav class="ui grid">
+      <!-- COMPUTER DISPLAY -->
+      <div class="computer only row">
+        <div class="ui massive violet inverted fixed menu container">
+          <div class="ui container">
+          <a class="header item">
+            Portfolio
+          </a>
+          <div class="right menu">
+            <a class="item" href="#aboutme">About Me</a>
+            <a class="item" href="#myprojects">My Projects</a>
+            <a class="item" href="#contact">Contact</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- TABLET&MOBILE DISPLAY -->
+      <div class="tablet mobile only row">
+        <div class="ui massive violet inverted fixed menu">
+          <div class="ui container">
+          <a class="header item">
+            Portfolio
+          </a>
+          <div class="right menu">
+            <a class="item icon"><i class="content icon"></i></a>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- section header - navigation ends here -->
+
+    <!-- section header - header -->
+    <div class="ui inverted container section-header">
+      <h1 class="ui center aligned header">Hello,
+      <div class="sub header">It's me. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+      </h1>
+    </div>
+    <!-- section header - header ends here -->
+
+    <!-- section about me -->
+    <div id="aboutme" class="ui row grid">
+      <div class="teal column">
+        <div class="ui two column stackable grid container">
+          <div class="column">
+            <img class="ui fluid circular image" src="img/bradley.jpg">
+          </div>
+          <div class="column">
+            <h1 class="ui center aligned violet header">About Me</h1>
+            <div class="ui items">
+              <div class="item">
+                <div class="item-icon">
+                  <i class="huge violet child icon"></i>
+                </div>
+                <div class="content">
+                  <div class="ui purple header">Name</div>
+                  <div class="description">
+                    <p class="ui yellow sub header">Semantic UI</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-icon">
+                  <i class="huge violet student icon"></i>
+                </div>
+                <div class="content">
+                  <div class="ui purple header">College Degree</div>
+                  <div class="description">
+                    <p class="ui yellow sub header">Not really</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-icon">
+                  <i class="huge violet clockwise rotated cocktail icon"></i>
+                </div>
+                <div class="ui middle aligned content">
+                  <div class="ui purple header">Favourite Drink</div>
+                  <div class="description">
+                    <p class="ui yellow sub header">whisky</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-icon">
+                  <i class="huge violet money icon"></i>
+                </div>
+                <div class="ui middle aligned content">
+                  <div class="ui purple header">Hobby</div>
+                  <div class="description">
+                    <p class="ui yellow sub header">Money</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section about me ends here -->
+
+  </div> <!-- pusher -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
