@@ -5,3 +5,22 @@
 .item-icon {
   margin-right: 20px;
 }
+
+#projects {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.project {
+  padding-top: 30px;
+}
+
+#contact {
+  padding-top: 60px;
+  
+}
+
+.teal-padding {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}

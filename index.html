@@ -50,21 +50,20 @@
       <div class="tablet mobile only row">
         <div class="ui massive violet inverted fixed menu">
           <div class="ui container">
-          <a class="header item">
-            Portfolio
-          </a>
-          <div class="right menu">
-            <a class="item icon"><i class="content icon"></i></a>
+            <a class="header item">
+              Portfolio
+            </a>
+            <div class="right menu">
+              <a class="item icon"><i class="content icon"></i></a>
+            </div>
           </div>
         </div>
-        </div>
-
       </div>
     </nav>
     <!-- section header - navigation ends here -->
 
     <!-- section header - header -->
-    <div class="ui inverted container section-header">
+    <div class="ui container section-header">
       <h1 class="ui center aligned header">Hello,
       <div class="sub header">It's me. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
       </h1>
@@ -131,6 +130,114 @@
       </div>
     </div>
     <!-- section about me ends here -->
+
+    <!-- section projects -->
+    <section id="projects" class="ui container">
+      <h1 class="ui left aligned huge header">
+        <i class="settings icon"></i>
+        <div class="content">My projects
+          <div class="sub header">Few examples of my work.</div>
+        </div>
+      </h1>
+      <article class="ui grid one column row project">
+        <div class="column">
+          <div class="ui move reveal">
+            <div class="visible content">
+              <img src="img/Rmagazine.jpg" class="ui fluid image">
+            </div>
+            <div class="hidden content">
+              <div class="ui inverted segment">
+              <h2 class="ui center aligned yellow inverted header">Rmagazine</h2>
+              <h4 class="ui center aligned olive inverted header">http://r-magazine.world/</h4>
+              <h5 class="ui center aligned teal inverted header">Rmagazine is a lifestyle digital magazine entirely directed by ROLA, one of Japanese biggest celebrities.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ui grid one column row project">
+        <div class="column">
+          <div class="ui move reveal">
+            <div class="visible content">
+              <img src="img/DoYouSpeak.jpg" class="ui fluid image">
+            </div>
+            <div class="hidden content">
+              <div class="ui inverted segment">
+              <h2 class="ui center aligned yellow inverted header">Do You Speak Human?</h2>
+              <h4 class="ui center aligned olive inverted header">http://doyouspeakhuman.com/</h4>
+              <h5 class="ui center aligned teal inverted header">Democratising Tomorrow's AI</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ui grid one column row project">
+        <div class="column">
+          <div class="ui move reveal">
+            <div class="visible content">
+              <img src="img/Daoust.jpg" class="ui fluid image">
+            </div>
+            <div class="hidden content">
+              <div class="ui inverted segment">
+              <h2 class="ui center aligned yellow inverted header">Daoust Lestage</h2>
+              <h4 class="ui center aligned olive inverted header">http://daoustlestage.com/en/</h4>
+              <h5 class="ui center aligned teal inverted header">As a multidisciplinary firm, Daoust strives to bridge the limitations of traditional practices</br> and overcome boundaries between urban design, architecture, interior and furniture design.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- end of section projects -->
+
+    <!-- contact me section -->
+    <section id="contact" class="ui row grid">
+      <div class="teal column">
+        <div class="ui container teal-padding">
+          <h1 class="ui left aligned huge header">
+            <i class="mail icon"></i>
+            <div class="content">Contact me
+              <div class="sub header">Checking form validations methods.</div>
+            </div>
+          </h1>
+
+          <form class="ui equal width form">
+            <div class="fields">
+              <div class="required field">
+                <label>First Name</label>
+                <input name="firstname" type="text" placeholder="First Name">
+              </div>
+              <div class="required field">
+                <label>Last Name</label>
+                <input name="lastname" type="text" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="required field">
+              <label>Email Address</label>
+              <input name="email" type="email" placeholder="Email Address">
+            </div>
+            <div class="required field">
+              <label>Your Message</label>
+              <textarea name="message" rows="4">Your Message</textarea>
+            </div>
+            <div class="field">
+              <input type="submit" value="Send Email" class="ui big olive button">
+            </div>
+            <div class="ui error message"></div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <!-- end of contact me section -->
+
+    <footer class="ui row grid">
+      <div class="violet column">
+        <h3 class="ui center aligned yellow header">All rights reserved 2017</h3>
+      </div>
+    </footer>
 
   </div> <!-- pusher -->
 
